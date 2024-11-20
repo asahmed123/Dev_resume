@@ -3,242 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional Resume</title>
-    <style>
-        /* General Styles */
-body {
-    font-family: 'Roboto', Arial, sans-serif;
-    line-height: 1.8;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
-}
-
-/* Container for the Resume */
-.container {
-    max-width: 900px;
-    margin: 40px auto;
-    background: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    padding: 20px;
-}
-
-/* Headers */
-h1 {
-    font-size: 2.5em;
-    color: #0056b3;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-h2 {
-    font-size: 1.8em;
-    color: #0056b3;
-    border-bottom: 2px solid #dce7f9;
-    padding-bottom: 5px;
-    margin-top: 30px;
-}
-
-h3 {
-    font-size: 1.5em;
-    color: #333;
-    margin-bottom: 5px;
-}
-
-/* Sections */
-.section {
-    margin-bottom: 20px;
-}
-
-.section ul {
-    margin: 10px 0 0;
-    padding: 0 20px;
-    list-style: disc;
-}
-
-.section li {
-    margin-bottom: 8px;
-}
-
-/* Contact Info */
-.contact-info p {
-    font-size: 1em;
-    margin: 5px 0;
-    text-align: center;
-}
-
-.contact-info a {
-    color: #0056b3;
-    text-decoration: none;
-}
-
-.contact-info a:hover {
-    text-decoration: underline;
-}
-
-/* Styling for Projects and Skills */
-ul {
-    margin: 0;
-    padding: 0;
-    list-style-position: inside;
-}
-
-ul li {
-    margin: 5px 0;
-}
-
-/* Soft Skills Section */
-.soft-skills ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    padding-left: 0;
-    list-style: none;
-}
-
-.soft-skills li {
-    background: #0056b3;
-    color: #fff;
-    padding: 8px 15px;
-    border-radius: 5px;
-    font-size: 0.9em;
-}
-
-/* Footer Links */
-.contact-info a {
-    display: inline-block;
-    margin: 0 5px;
-    font-size: 1em;
-    transition: all 0.3s ease-in-out;
-}
-
-.contact-info a:hover {
-    color: #003d80;
-    text-decoration: underline;
-}
-
-/* Highlight Hover for Skills */
-ul li:hover {
-    background: rgba(0, 86, 179, 0.1);
-}
-
-/* Miscellaneous Styling */
-p {
-    font-size: 1em;
-    margin: 10px 0;
-    color: #555;
-}
-
-@media (max-width: 768px) {
-    .soft-skills ul {
-        display: block;
-    }
-
-    .soft-skills li {
-        margin-bottom: 10px;
-    }
-}
-
-    </style>
+    <title>Resume - Adil Ahmed</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Adil Ahmed</h1>
-        <div class="contact-info">
-            <p>Midvale, UT | 385.439.9833 | asahmed123@gmail.com</p>
-            <p><a href="https://www.linkedin.com/in/asahmed1/" target="_blank" >LinkedIn</a> | <a href="https://github.com/asahmed123" target="_blank" >GitHub</a></p>
-        </div>
-
-        <div class="section">
-            <h2>Professional Summary</h2>
-            <p>
-                Experienced IT professional and front-end developer with a strong foundation in AngularJS, technical support, and customer service. Proven ability to troubleshoot and resolve complex technical issues while building responsive, scalable web applications. Skilled in web development, networking concepts, and delivering exceptional user experiences. Seeking a front-end development role to leverage my expertise in AngularJS and technical problem-solving to create impactful applications.
+    <div class="resume-container">
+        <header class="resume-header">
+            <h1>Adil Ahmed</h1>
+            <p>Midvale, UT</p>
+            <p>385.439.9833 | <a href="mailto:asahmed123@gmail.com">asahmed123@gmail.com</a> | 
+                <a href="https://www.linkedin.com/in/asahmed1" target="_blank">LinkedIn</a> | 
+                <a href="https://github.com/asahmed123" target="_blank">GitHub_Page</a>
             </p>
-        </div>
-
-        <div class="section">
-            <h2>Education</h2>
-            <p><strong>Bachelor of Science</strong></p>
-            <p>Weber State University – City, State</p>
-            <p>August 2006 – April 2010</p>
-        </div>
-
-        <div class="section">
-            <h2>Certifications</h2>
-            <ul>
-                <li>CompTIA Security+</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Technical Skills</h2>
-            <ul>
-                <li><strong>Front-End Development:</strong> AngularJS, ReactJS, Bootstrap, HTML5, CSS3, SCSS, Tailwind CSS</li>
-                <li><strong>Programming/Scripting:</strong> TypeScript, JavaScript, Node.js, Bash , Python</li>
-                <li><strong>Networking Concepts:</strong> Cisco, OSI Model, ping, trace route, hardware support</li>
-                <li><strong>IT Tools:</strong> Intune, ServiceNow, Microsoft Toolbox</li>
-                <li><strong>Version Control:</strong> Git</li>
-                <li><strong>Testing Tools:</strong> Jasmine, Jest</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Professional Experience</h2>
-
-            <h3>IT Service Desk Technician</h3>
-            <p><em>Morgan Stanley – South Jordan, UT</em></p>
-            <p>November 2023 – Present</p>
-            <ul>
-                <li>Provided remote support for users, troubleshooting Windows OS and network issues.</li>
-                <li>Administered SecurID and supported Intune configurations.</li>
-                <li>Leveraged ServiceNow to track and resolve technical incidents efficiently.</li>
-            </ul>
-
-            <h3>IT Service Desk</h3>
-            <p><em>Calibre Systems (Contracted to SAIC)</em></p>
-            <p>March 2022 – July 2023</p>
-            <ul>
-                <li>Delivered exceptional technical support in a high-volume call center environment.</li>
-                <li>Applied root-cause analysis to identify and resolve recurring IT issues, prioritizing impactful solutions.</li>
-                <li>Maintained high customer satisfaction through clear communication and timely resolution.</li>
-            </ul>
-
-            <h3>Hardware Specialist</h3>
-            <p><em>Sykes – Midvale, UT</em></p>
-            <p>July 2021 – March 2022</p>
-            <ul>
-                <li>Supported Sony PlayStation users with hardware diagnostics and repairs.</li>
-                <li>Ensured customer satisfaction through effective problem-solving and communication.</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Projects</h2>
-            <h3>E-Commerce App for Used Cars (MEAN Stack)</h3>
-            <ul>
-                <li>Built a responsive front-end using AngularJS with reusable components for streamlined development.</li>
-                <li>Implemented dynamic search, filtering, and sorting features for enhanced user navigation.</li>
-            </ul>
-
-            <h3>Task Management Application (AngularJS & Firebase)</h3>
-            <ul>
-                <li>Developed real-time task management features with CRUD operations.</li>
-                <li>Integrated Firebase authentication for secure user access.</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Soft Skills</h2>
-            <ul>
-                <li>Exceptional communication, both written and verbal</li>
-                <li>Strong analytical and problem-solving abilities</li>
-                <li>Team collaboration and independent work skills</li>
-                <li>Customer-focused mindset with a results-driven approach</li>
-            </ul>
-        </div>
+        </header>
+        <main>
+            <section class="summary">
+                <h2>Professional Summary</h2>
+                <p>
+                    Experienced software developer with expertise in front-end development, ReactJs, and software troubleshooting. 
+                    Skilled at creating responsive and scalable web applications, debugging, and optimizing code for performance. 
+                    Adept at leveraging modern programming languages and frameworks to deliver user-focused solutions. Seeking to 
+                    contribute to innovative teams with a focus on building impactful applications.
+                </p>
+            </section>
+            <section class="education">
+                <h2>Education</h2>
+                <p><strong>Bachelor of Science</strong></p>
+                <p>Weber State University – Ogden, UT</p>
+                <p>August 2006 – April 2010</p>
+            </section>
+            <section class="certifications">
+                <h2>Certifications</h2>
+                <ul>
+                    <li>CompTIA Security+</li>
+                </ul>
+            </section>
+            <section class="skills">
+                <h2>Technical Skills</h2>
+                <ul>
+                    <li><strong>Programming & Development:</strong> TypeScript, JavaScript, Python, Bash, Linux CLI</li>
+                    <li><strong>Frameworks & Libraries:</strong> ReactJS</li>
+                    <li><strong>Frontend:</strong> HTML5, CSS3, Bootstrap</li>
+                    <li><strong>Testing & Debugging:</strong> Jasmine, Jest, Chrome DevTools</li>
+                    <li><strong>Cloud & Virtualization:</strong> AWS, Docker, Virtual Machines (VMs)</li>
+                    <li><strong>Version Control:</strong> Git, GitHub, GitLab</li>
+                    <li><strong>Networking Concepts:</strong> OSI Model, ping, trace route</li>
+                </ul>
+            </section>
+            <section class="experience">
+                <h2>Professional Experience</h2>
+                <div class="job">
+                    <h3>IT Service Desk Technician</h3>
+                    <p>Morgan Stanley – South Jordan, UT | November 2023 – Present</p>
+                    <ul>
+                        <li>Troubleshot software and network issues, minimizing user downtime through effective root-cause analysis.</li>
+                        <li>Administered SecurID and streamlined Intune configurations to enhance user productivity.</li>
+                        <li>Automated routine administrative tasks using PowerShell scripts, saving over 20 hours weekly.</li>
+                    </ul>
+                </div>
+                <div class="job">
+                    <h3>IT Service Desk</h3>
+                    <p>Calibre Systems (Contracted to SAIC) | March 2022 – July 2023</p>
+                    <ul>
+                        <li>Delivered technical support for proprietary software and systems, ensuring 99% SLA compliance.</li>
+                        <li>Built Python scripts to automate recurring troubleshooting tasks, reducing resolution time.</li>
+                        <li>Documented and expanded the internal knowledge base to improve issue resolution consistency.</li>
+                    </ul>
+                </div>
+                <div class="job">
+                    <h3>Hardware Specialist</h3>
+                    <p>Sykes – Midvale, UT | July 2021 – March 2022</p>
+                    <ul>
+                        <li>Diagnosed and resolved hardware and software issues for Sony PlayStation devices.</li>
+                        <li>Developed Bash scripts to improve the efficiency of routine setup and diagnostics.</li>
+                        <li>Ensured high customer satisfaction through effective technical communication.</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="soft-skills">
+                <h2>Soft Skills</h2>
+                <ul>
+                    <li>Excellent verbal and written communication skills</li>
+                    <li>Strong analytical and debugging abilities</li>
+                    <li>Team collaboration and independent work proficiency</li>
+                    <li>Results-driven with a customer-focused mindset</li>
+                </ul>
+            </section>
+        </main>
     </div>
 </body>
 </html>
